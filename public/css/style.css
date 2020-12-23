@@ -1,0 +1,51 @@
+body {
+    background-color: coral;
+    margin: auto;
+
+}
+::selection {
+    background-color: crimson;
+    color: black;
+}
+label {
+    text-align: center;
+}
+
+form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+input, label {
+    display: block;
+    width:  25rem;
+    border: none;
+    padding: 1.3rem;
+    margin: .5rem;
+    border-radius: 20px;
+}
+
+
+button {
+    display: block;
+    width: 10rem;
+    border: none;
+    background-color: crimson;
+    color: white;
+    margin-left: 30%;
+    margin-top: .5rem;
+    padding: .75rem;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .4s;
+}
+button:hover{
+    transform: scale(1.20);
+}
+
+.reponse {
+    margin-top: 8rem;
+    width: 100%;
+    text-align: center;
+}
